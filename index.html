@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portofolio website</title>
+    <link rel="stylesheet" href="style.css">
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+</head>
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img src="images/Logo1.png" alt="image1" class="logo">
+                <ul id="sidemenu"> 
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#portopolio">Portofolio</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                   <i class="fa fa-times" onclick="closemenu()"></i>
+                </ul>
+              <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+            </nav>
+            <div class="header-text">
+                <p>UI/UX Designer & WEB DEVELOPER</p>
+                <h1>Hii, I'm <span>Nidhi Thakur</span><br> From India</br></h1>
+            </div>
+        </div>
+    </div>
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="images/Nidhi_about_me.png">
+
+                </div>
+                <div class="about-col-2">
+                    <h1  class="subtitle1">About me</h1>
+                    <p class="subtitle2">Hi, I'm Nidhi Thakur, a B.Tech student with a strong interest<br> in programming, web development, and problem-solving.<br> I enjoy learning new technologies and continuously improving<br> my coding skills through projects and coding challenges.<br> I have experience with languages such as C and Java and <br>i am currently exploring front-end development using HTML, CSS, and JavaScript. </br>My goal is to build practical, user-friendly applications while growing as <br>a software developer. I am passionate about learning, adapting to </br>new challenges, and turning ideas into reality through technology.</p>
+                    <div class="tab-titles">
+                        <p class="tablinks active-link" onclick="opentab('skills')">Skills</p>
+                        <p class="tablinks" onclick="opentab('experience')">Experience</p>
+                        <p class="tablinks" onclick="opentab('education')">Education</p>
+                    </div>
+                    <div class="tab-contents active-tab" id="skills" >
+                        <ul>
+                            <li><span>UI/UX</span><br>Designing Web/App interfaces</br></li>
+                            <li><span>Web Development</span><br>Web app development </br></li>
+                        </ul>
+                    </div>
+                     <div class="tab-contents " id="experience">
+                        <ul>
+                            <li><span>Web Development Projects</span><br>Developed responsive web pages using HTML and CSS</br></li>
+                            <li><span>Programming and Problem Solving</span><br>Solved coding problems in Java on coding platforms like Leetcode and Geeks for Geeks</br></li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="education">
+                        <ul>
+                            <li><span>2021-2022</span><br>Completed Higher Secondary Education </br></li>
+                            <li><span>2023-2024</span><br>Completed Secondary Education</br> </li>
+                            <li><span>2024-Present</span><br>Currently pursuing a degree in Computer Science and Information Technology</br></li>
+
+                        </ul>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+        <div id="services"> 
+            <div class="container">
+                <h1 class="sub-title">My Services</h1>
+                <div class="services-list">
+                    <div>
+                        <h2>Web Design <i class="fa-solid fa-laptop-code"></i></h2>
+                        <p>Designed and developed responsive, user-friendly websites using HTML, CSS, and JavaScript. Focused on creating visually appealing layouts, smooth navigation, and an optimized user experience across different devices and screen sizes.</p>
+                        <a href="#">Learn more  <i class="fa-solid fa-up-right-from-square"></i></a>
+                    </div>
+                     <div>
+                        
+                        <h2>UI/UX Design <i class="fa-solid fa-palette"></i></h2>
+                        <p>Creating intuitive, user-centered, and visually appealing digital experiences by combining effective user interface design with seamless user experience principles.</p>
+                        <a href="#">Learn more  <i class="fa-solid fa-up-right-from-square"></i></a>
+                    </div>
+                    <div>
+                        <h2>App Design <i class="fa-solid fa-mobile-screen"></i> </h2>
+                        <p>Designing intuitive, visually appealing, and user-friendly mobile applications that provide seamless experiences across devices. Focused on creating clean interfaces, smooth navigation, and engaging interactions to meet user needs and business goals.</p>
+                        <a href="#">Learn more  <i class="fa-solid fa-up-right-from-square"></i></a>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+        <div id="portopolio">
+            <div class="container">
+                 <h1 class="sub-title">My Work</h1>
+                 <div class="work-list">
+                    <div class="work">
+                        <img src="images/work1.png" alt="work1" height="300px" width="500px">
+                        <div class="layer">
+                            <h3>BMI Calculator <i class="fa-solid fa-calculator"></i></h3>
+                            <p>The application allows users to enter their height and weight, instantly calculates their BMI, and displays the corresponding health category (Underweight, Normal Weight, Overweight, or Obese).</p>
+                            <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+                        </div>
+                    </div>
+                    <div class="work">
+                        <img src="images/work2.png" alt="work2" height="300px" width="500px">
+                        <div class="layer">
+                            <h3>She Can Foundation Website <i class="fa-solid fa-laptop-code"></i></i></h3>
+                            <p> The website features a clean, responsive design that highlights the foundation's mission, programs, and initiatives.</p>
+                            <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+                            </div>
+                    </div>
+                    <div class="work">
+                        <img src="images/work3.png" alt="work3" height="300px" width="500px">
+                        <div class="layer">
+                            <h3>Real-Time-Weather-checker web app <i class="fa-solid fa-temperature-half"></i></h3>
+                            <p>The app fetches live weather data through a weather API and displays current temperature, humidity, wind speed, and weather conditions for any searched location. </p>
+                            <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+                            </div>
+                    </div>
+                    
+                    </div>
+                    <div class="work-list1">
+                    <div class="work1">
+                        <img src="images/work4.png" alt="work1" height="300px" width="500px">
+                        <div class="layer1">
+                            <h3>Food Go <i class="fa-solid fa-bag-shopping"></i></i></h3>
+                            <p>Food Go is a food delivery app UI concept featuring a clean interface, personalized offers, and seamless navigation. Created to provide users with a smooth and engaging ordering experience.</p>
+                            <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+                        </div>
+                    </div>
+                    <div class="work1">
+                        <img src="images/work5.png" alt="work2" height="300px" width="500px">
+                        <div class="layer1">
+                            <h3>Electric Vehicle Landing Page <i class="fa-solid fa-bolt"></i></h3>
+                            <p> Designed a modern electric vehicle landing page with a clean and futuristic interface. The design highlights eco-friendly transportation, advanced technology, and an engaging user experience.
+</p>
+                            <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+                            </div>
+                    </div>
+                    <div class="work1">
+                        <img src="images/work6.png" alt="work3" height="300px" width="500px">
+                        <div class="layer1">
+                            <h3>Pizza Hut Landing Page<i class="fa-solid fa-pizza-slice"></i>  </h3>
+                            <p>Created a responsive restaurant website UI with a clean layout, interactive navigation, and visually appealing food showcases. Designed to improve user engagement and brand presentation. </p>
+                            <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+                            </div>
+                    </div>
+                    
+                    </div>
+                    <a href="" class="btn">See more</a>
+
+
+                </div>
+
+        </div>
+        <div id="contact">
+        <div class="contact">
+            <div class="container">
+                <div class="row">
+                    <div class="contact-left">
+                        <h1 class="subtitle">Contact Me</h1>
+                        <p> <i class="fa-solid fa-envelope"></i> contact@example.com </p>
+                        <p> <i class="fa-solid fa-phone"></i> 8273xxxxxx </p>
+                        <div class="social-icons">
+                            <a href=""><i class="fa-brands fa-square-facebook"></i></a>
+                            <a href=""><i class="fa-brands fa-square-instagram"></i></a>
+                            <a href=""><i class="fa-brands fa-square-x-twitter"></i></a>
+                            <a href=""><i class="fa-brands fa-linkedin"></i></a>
+                        </div>
+                        <a href="images/my-cv.pdf" download class="btn btn2">Download Cv</a>
+
+                    </div>
+                <div class="contact-right">
+                    <form name="Contact-form">
+                        <input type="text" name="Name" placeholder="Your Name" required>
+                        <input type="email" name="Email" placeholder="Your Email" required>
+                        <textarea name="Message"  rows="6" placeholder="Your Message"></textarea>
+                        <button type="submit" class="btn btn2">Submit</button>
+                         
+
+                    </form>
+                    <span id="msg"></span>
+                        
+                    </div>
+                </div>
+            </div>
+        </div>
+        </div>
+        <div class="copyright">
+            <p>© 2026 Nidhi Thakur. All rights reserved. Designed and developed by Nidhi Thakur.
+</p>
+        </div>
+
+        <script>
+            var tablinks=document.getElementsByClassName("tablinks");
+            var tabcontents=document.getElementsByClassName("tab-contents");
+            function opentab(tabname){
+                for(tablink of tablinks){
+                    tablink.classList.remove("active-link");
+                }
+                for(tabcontent of tabcontents){
+                    tabcontent.classList.remove("active-tab")
+                }
+                event.currentTarget.classList.add("active-link");
+                document.getElementById(tabname).classList.add("active-tab");
+            }
+
+        </script>
+        <script>
+            var sidemenu=document.getElementById("sidemenu");
+            function openmenu(){
+                sidemenu.style.right="0";
+            }
+            function closemenu(){
+                sidemenu.style.right="-200px";
+            }
+        </script>
+    
+        
+
+
+
+
+    </div>
+</body>
+</html>
