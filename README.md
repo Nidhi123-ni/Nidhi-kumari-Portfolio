@@ -40,7 +40,7 @@ Add screenshots of your portfolio here.
 
 Visit the live website:
 
-https://yourusername.github.io/portfolio/
+ https://nidhi123-ni.github.io/Nidhi-kumari-Portfolio/
 
 ## 👨‍💻 About Me
 
@@ -48,14 +48,6 @@ I am a Computer Science student passionate about web development, problem-solvin
 
 ## 📫 Connect With Me
 
-- GitHub: https://github.com/yourusername
-- LinkedIn: https://linkedin.com/in/yourprofile
-- Email: your.email@example.com
+- GitHub: https://github.com/Nidhi123-ni
+- LinkedIn: https://linkedin.com/in/nidhi-kumari-994a96328
 
-## 📝 License
-
-This project is open-source and available under the MIT License.
-
----
-
-⭐ If you like this project, consider giving it a star!
