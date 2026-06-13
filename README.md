@@ -34,7 +34,8 @@ portfolio/
 
 ## 📸 Preview
 
-Add screenshots of your portfolio here.
+<img width="1901" height="912" alt="image" src="https://github.com/user-attachments/assets/e7272c26-2d7c-4a49-bfe3-3aebb53a7aa5" />
+
 
 ## 🌐 Live Demo
 
